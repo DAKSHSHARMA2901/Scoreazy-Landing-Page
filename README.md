@@ -17,4 +17,4 @@ CSS3 – Styling and animations
 JavaScript – Basic interactivity (optional if used)
 
 🌐 Live Demo
-🔗 View Hosted Website
+🔗 [View Hosted Website](https://bucolic-gecko-b93a94.netlify.app/)
