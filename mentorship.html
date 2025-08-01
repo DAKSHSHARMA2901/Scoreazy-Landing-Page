@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Scoreazy Mentorship Program - Personalized 1:1 guidance from expert educators and career counselors">
+    <title>Mentorship Program | Scoreazy</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+    <a href="index.html" class="logo">
+    <img src="logo.png" alt="Scoreazy Logo">
+    <div>
+        <h1>SCOREAZY</h1>
+        <p>Education Simplified</p>
+    </div>
+    </a>
+
+        <ul class="nav-links">
+            <li><a href="#overview">Overview</a></li>
+            <li><a href="#mentors">Our Mentors</a></li>
+            <li><a href="#process">How It Works</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#testimonials">Success Stories</a></li>
+        </ul>
+        <div class="cta-nav">
+            <a href="#booking" class="btn primary">Book Session</a>
+        </div>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <ul>
+            <li><a href="#overview">Overview</a></li>
+            <li><a href="#mentors">Our Mentors</a></li>
+            <li><a href="#process">How It Works</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#testimonials">Success Stories</a></li>
+            <li><a href="#booking" class="btn primary">Book Session</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero mentorship-hero" id="overview">
+        <div class="hero-content">
+            <h1>Personalized <span>Mentorship</span> for Academic Success</h1>
+            <p class="subtitle">1:1 guidance from expert educators and career counselors to help you achieve your academic and career goals</p>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <div class="stat-number">500+</div>
+                    <div class="stat-label">Students Mentored</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">96%</div>
+                    <div class="stat-label">Satisfaction Rate</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">Expert Mentors</div>
+                </div>
+            </div>
+            <div class="cta-buttons">
+                <a href="#booking" class="btn primary">Find Your Mentor</a>
+                <a href="#mentors" class="btn secondary">Meet Mentors</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1606326608606-aa0b62935f2b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Mentor and student working together">
+        </div>
+    </section>
+
+    <!-- Who Needs Mentorship -->
+    <section class="mentorship-needs">
+        <div class="section-header">
+            <h2>Who Benefits From Our Mentorship?</h2>
+            <p>Whether you're preparing for exams, choosing a career path, or need academic support, our mentors can help</p>
+        </div>
+        <div class="needs-container">
+            <div class="need-card">
+                <div class="need-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <h3>High School Students</h3>
+                <ul>
+                    <li><i class="fas fa-check"></i> Subject-specific guidance</li>
+                    <li><i class="fas fa-check"></i> Board exam preparation</li>
+                    <li><i class="fas fa-check"></i> Study skill development</li>
+                </ul>
+            </div>
+            <div class="need-card">
+                <div class="need-icon">
+                    <i class="fas fa-user-graduate"></i>
+                </div>
+                <h3>College Applicants</h3>
+                <ul>
+                    <li><i class="fas fa-check"></i> University selection</li>
+                    <li><i class="fas fa-check"></i> Application strategy</li>
+                    <li><i class="fas fa-check"></i> Entrance exam prep</li>
+                </ul>
+            </div>
+            <div class="need-card">
+                <div class="need-icon">
+                    <i class="fas fa-briefcase"></i>
+                </div>
+                <h3>Career Explorers</h3>
+                <ul>
+                    <li><i class="fas fa-check"></i> Career path guidance</li>
+                    <li><i class="fas fa-check"></i> Skill gap analysis</li>
+                    <li><i class="fas fa-check"></i> Industry insights</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mentors Section -->
+    <section class="mentors" id="mentors">
+        <div class="section-header">
+            <h2>Meet Our Expert Mentors</h2>
+            <p>Connect with experienced professionals who understand your challenges</p>
+        </div>
+        <div class="mentor-filters">
+            <button class="filter-btn active" data-filter="all">All Mentors</button>
+            <button class="filter-btn" data-filter="academic">Academic</button>
+            <button class="filter-btn" data-filter="career">Career</button>
+            <button class="filter-btn" data-filter="test-prep">Test Prep</button>
+        </div>
+        <div class="mentors-grid">
+            <div class="mentor-card" data-category="academic">
+                <div class="mentor-image">
+                    <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1587&q=80" alt="Dr. Anjali Kapoor">
+                    <div class="mentor-specialty">Physics Expert</div>
+                </div>
+                <div class="mentor-info">
+                    <h3>Dr. Anjali Kapoor</h3>
+                    <p class="mentor-title">PhD Physics, 15+ Years Teaching Experience</p>
+                    <div class="mentor-rating">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <span>4.8 (142 sessions)</span>
+                    </div>
+                    <p class="mentor-bio">Specializes in making complex physics concepts accessible for high school and college students.</p>
+                    <div class="mentor-expertise">
+                        <span>CBSE/ICSE</span>
+                        <span>IIT-JEE</span>
+                        <span>NEET</span>
+                    </div>
+                    <a href="#booking" class="btn secondary">Book Session</a>
+                </div>
+            </div>
+            <div class="mentor-card" data-category="career">
+                <div class="mentor-image">
+                    <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1587&q=80" alt="Rahul Mehta">
+                    <div class="mentor-specialty">Career Coach</div>
+                </div>
+                <div class="mentor-info">
+                    <h3>Rahul Mehta</h3>
+                    <p class="mentor-title">Ex-HR Director, Career Counselor</p>
+                    <div class="mentor-rating">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <span>5.0 (89 sessions)</span>
+                    </div>
+                    <p class="mentor-bio">Helps students identify their strengths and align them with potential career paths.</p>
+                    <div class="mentor-expertise">
+                        <span>Career Assessment</span>
+                        <span>Resume Building</span>
+                        <span>Interview Prep</span>
+                    </div>
+                    <a href="#booking" class="btn secondary">Book Session</a>
+                </div>
+            </div>
+            <div class="mentor-card" data-category="test-prep">
+                <div class="mentor-image">
+                    <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1587&q=80" alt="Priya Sharma">
+                    <div class="mentor-specialty">SAT/ACT Specialist</div>
+                </div>
+                <div class="mentor-info">
+                    <h3>Priya Sharma</h3>
+                    <p class="mentor-title">Education Consultant, Test Prep Expert</p>
+                    <div class="mentor-rating">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <span>4.9 (203 sessions)</span>
+                    </div>
+                    <p class="mentor-bio">Helps students develop personalized test-taking strategies for standardized exams.</p>
+                    <div class="mentor-expertise">
+                        <span>SAT</span>
+                        <span>ACT</span>
+                        <span>IELTS/TOEFL</span>
+                    </div>
+                    <a href="#booking" class="btn secondary">Book Session</a>
+                </div>
+            </div>
+            <div class="mentor-card" data-category="academic">
+                <div class="mentor-image">
+                    <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1587&q=80" alt="Dr. Sanjay Patel">
+                    <div class="mentor-specialty">Math Mentor</div>
+                </div>
+                <div class="mentor-info">
+                    <h3>Dr. Sanjay Patel</h3>
+                    <p class="mentor-title">Mathematics Professor, Olympiad Coach</p>
+                    <div class="mentor-rating">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <span>4.7 (176 sessions)</span>
+                    </div>
+                    <p class="mentor-bio">Makes mathematics engaging and helps students overcome math anxiety.</p>
+                    <div class="mentor-expertise">
+                        <span>Olympiads</span>
+                        <span>Calculus</span>
+                        <span>Competitive Exams</span>
+                    </div>
+                    <a href="#booking" class="btn secondary">Book Session</a>
+                </div>
+            </div>
+        </div>
+        <div class="view-all">
+            <a href="#" class="btn secondary">View All 50+ Mentors</a>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process" id="process">
+        <div class="section-header">
+            <h2>How Our Mentorship Works</h2>
+            <p>Simple steps to connect with your ideal mentor</p>
+        </div>
+        <div class="process-steps">
+            <div class="step">
+                <div class="step-number">1</div>
+                <div class="step-content">
+                    <h3>Find Your Mentor</h3>
+                    <p>Browse our expert mentors and select one that matches your needs</p>
+                </div>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <div class="step-content">
+                    <h3>Book a Session</h3>
+                    <p>Choose an available time slot that works for your schedule</p>
+                </div>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <div class="step-content">
+                    <h3>Complete Intake Form</h3>
+                    <p>Share your goals and challenges before your session</p>
+                </div>
+            </div>
+            <div class="step">
+                <div class="step-number">4</div>
+                <div class="step-content">
+                    <h3>Attend Your Session</h3>
+                    <p>Connect via video call for personalized guidance</p>
+                </div>
+            </div>
+            <div class="step">
+                <div class="step-number">5</div>
+                <div class="step-content">
+                    <h3>Follow Up</h3>
+                    <p>Receive session notes and action items to continue progress</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="section-header">
+            <h2>Mentorship Success Stories</h2>
+            <p>How our mentorship has transformed students' academic journeys</p>
+        </div>
+        <div class="testimonial-slider">
+            <div class="testimonial active">
+                <div class="testimonial-content">
+                    <p>"My mentor helped me improve my physics score by 25% in just 3 months. Their teaching style finally made difficult concepts click for me."</p>
+                    <div class="testimonial-author">
+                        <img src="https://via.placeholder.com/50x50" alt="Student">
+                        <div>
+                            <h4>Riya Malhotra</h4>
+                            <p>Class 12 Student, 94% in Boards</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial">
+                <div class="testimonial-content">
+                    <p>"Career counseling with Rahul sir helped me choose the right engineering stream. I would have made a big mistake without his guidance."</p>
+                    <div class="testimonial-author">
+                        <img src="https://via.placeholder.com/50x50" alt="Student">
+                        <div>
+                            <h4>Arjun Singh</h4>
+                            <p>Computer Science Student, IIT Delhi</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial">
+                <div class="testimonial-content">
+                    <p>"Priya ma'am's SAT strategies helped me increase my score by 320 points. Got into my dream university with a scholarship!"</p>
+                    <div class="testimonial-author">
+                        <img src="https://via.placeholder.com/50x50" alt="Student">
+                        <div>
+                            <h4>Neha Gupta</h4>
+                            <p>Undergraduate at University of Michigan</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-controls">
+                <button class="slider-prev"><i class="fas fa-chevron-left"></i></button>
+                <div class="slider-dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+                <button class="slider-next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing" id="pricing">
+        <div class="section-header">
+            <h2>Flexible Mentorship Plans</h2>
+            <p>Choose the option that best fits your needs</p>
+        </div>
+        <div class="pricing-cards">
+            <div class="pricing-card">
+                <h3>Single Session</h3>
+                <div class="price">
+                    <span class="amount">₹1,500</span>
+                    <span class="duration">one-time</span>
+                </div>
+                <ul>
+                    <li><i class="fas fa-check"></i> 60-minute 1:1 session</li>
+                    <li><i class="fas fa-check"></i> Personalized advice</li>
+                    <li><i class="fas fa-check"></i> Session summary</li>
+                    <li><i class="fas fa-check"></i> Email follow-up</li>
+                    <li><i class="fas fa-times"></i> Progress tracking</li>
+                    <li><i class="fas fa-times"></i> Discounted rate</li>
+                </ul>
+                <a href="#booking" class="btn secondary">Book Now</a>
+            </div>
+            <div class="pricing-card featured">
+                <div class="popular-tag">Most Popular</div>
+                <h3>4-Session Package</h3>
+                <div class="price">
+                    <span class="amount">₹5,000</span>
+                    <span class="duration">save ₹1,000</span>
+                </div>
+                <ul>
+                    <li><i class="fas fa-check"></i> Four 60-minute sessions</li>
+                    <li><i class="fas fa-check"></i> Progress tracking</li>
+                    <li><i class="fas fa-check"></i> Action plans</li>
+                    <li><i class="fas fa-check"></i> Priority scheduling</li>
+                    <li><i class="fas fa-check"></i> Resource library access</li>
+                    <li><i class="fas fa-check"></i> Email support</li>
+                </ul>
+                <a href="#booking" class="btn primary">Get Package</a>
+            </div>
+            <div class="pricing-card">
+                <h3>Ongoing Mentorship</h3>
+                <div class="price">
+                    <span class="amount">₹3,500</span>
+                    <span class="duration">per month</span>
+                </div>
+                <ul>
+                    <li><i class="fas fa-check"></i> Two 60-minute sessions/month</li>
+                    <li><i class="fas fa-check"></i> Continuous guidance</li>
+                    <li><i class="fas fa-check"></i> Customized roadmap</li>
+                    <li><i class="fas fa-check"></i> Unlimited email support</li>
+                    <li><i class="fas fa-check"></i> Progress reports</li>
+                    <li><i class="fas fa-check"></i> Resource library access</li>
+                </ul>
+                <a href="#booking" class="btn secondary">Learn More</a>
+            </div>
+        </div>
+        <div class="pricing-note">
+            <p><i class="fas fa-shield-alt"></i> 100% satisfaction guarantee - if you're not happy with your first session, we'll refund your payment</p>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section class="booking" id="booking">
+        <div class="booking-container">
+            <div class="booking-content">
+                <h2>Ready to Find Your Ideal Mentor?</h2>
+                <p>Complete the form below and we'll match you with the perfect mentor for your needs</p>
+                <div class="booking-benefits">
+                    <h4>Why Choose Scoreazy Mentorship:</h4>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Carefully vetted expert mentors</li>
+                        <li><i class="fas fa-check"></i> Personalized matching based on your goals</li>
+                        <li><i class="fas fa-check"></i> Flexible scheduling options</li>
+                        <li><i class="fas fa-check"></i> Secure video conferencing platform</li>
+                        <li><i class="fas fa-check"></i> Satisfaction guaranteed</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="booking-form">
+                <form id="mentorship-form">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="student-level">Student Level</label>
+                        <select id="student-level" name="student-level" required>
+                            <option value="">Select level</option>
+                            <option value="middle-school">Middle School (6-8)</option>
+                            <option value="high-school">High School (9-12)</option>
+                            <option value="undergraduate">Undergraduate</option>
+                            <option value="graduate">Graduate</option>
+                            <option value="career">Career Professional</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="mentorship-type">Mentorship Need</label>
+                        <select id="mentorship-type" name="mentorship-type" required>
+                            <option value="">Select area</option>
+                            <option value="academic">Academic Subject Help</option>
+                            <option value="test-prep">Test Preparation</option>
+                            <option value="college">College Admissions</option>
+                            <option value="career">Career Guidance</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="goals">Your Goals (Optional)</label>
+                        <textarea id="goals" name="goals" placeholder="Briefly describe what you hope to achieve through mentorship"></textarea>
+                    </div>
+                    <button type="submit" class="btn primary">Find My Mentor</button>
+                </form>
+                <div class="form-note">
+                    <p><i class="fas fa-lock"></i> We respect your privacy. Your information will not be shared.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <div class="section-header">
+            <h2>Mentorship FAQs</h2>
+            <p>Answers to common questions about our mentorship program</p>
+        </div>
+        <div class="faq-container">
+            <div class="faq-item">
+                <button class="faq-question">
+                    How are mentors selected?
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>All Scoreazy mentors undergo a rigorous selection process including credential verification, background checks, and teaching demonstrations. We only accept mentors with proven expertise in their field and a demonstrated ability to guide students effectively.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">
+                    What technology do I need for sessions?
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>You'll need a device with a webcam, microphone, and stable internet connection. Sessions are conducted through our secure platform which works on computers, tablets, and smartphones. No special software is required - you'll receive a link to join your session.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">
+                    Can I change mentors if it's not a good fit?
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>Absolutely. We want you to have the best possible experience. If after your first session you feel another mentor would be a better match, we'll help you find someone more suited to your needs at no additional cost.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">
+                    How soon can I start sessions?
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>Most mentors have availability within 3-5 days. Some popular mentors may have longer wait times, but we'll always let you know upfront about availability before you book.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">
+                    Do you offer group mentoring?
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>Currently we focus on 1:1 mentoring for personalized attention. However, some mentors offer small group sessions (2-3 students) for certain topics - inquire when booking if this interests you.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <a href="index.html" class="logo">
+                 <img src="logo.png" alt="Scoreazy Logo">
+                    <div>
+                        <h1>SCOREAZY</h1>
+                    <p>Education Simplified</p>
+                    </div>
+                </a>
+                <p>Personalized mentorship to unlock your academic and career potential.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#overview">Program Overview</a></li>
+                    <li><a href="#mentors">Find a Mentor</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#testimonials">Success Stories</a></li>
+                    <li><a href="#faq">FAQs</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li><i class="fas fa-envelope"></i> mentorship@scoreazy.com</li>
+                    <li><i class="fas fa-phone"></i> +91 98765 43210</li>
+                    <li><i class="fas fa-map-marker-alt"></i> 123 EduTech Park, Bangalore, India</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Scoreazy Edutech Private Limited. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Refund Policy</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
